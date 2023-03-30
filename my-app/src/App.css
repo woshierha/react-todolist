@@ -1,13 +1,18 @@
-.App {
+h2 {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 .todo-list {
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.list-item {
+  margin-bottom: 5%;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
